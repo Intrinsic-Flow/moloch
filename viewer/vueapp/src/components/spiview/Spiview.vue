@@ -1299,7 +1299,7 @@ export default {
 
 /* larger titles */
 .spiview-page strong.category-title {
-  font-size: 1.3rem;
+  font-size: 0.8rem;
 }
 
 /* btn drawer for toggling values -- */

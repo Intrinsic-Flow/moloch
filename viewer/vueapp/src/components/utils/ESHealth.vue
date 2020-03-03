@@ -18,7 +18,7 @@
     <!-- info icon -->
     <span class="cursor-help"
       id="infoTooltip">
-      <span class="fa fa-info-circle fa-2x"
+      <span class="fa fa-info-circle fa-1x"
         :class="esHealthClass"
         v-if="!error && esHealth">
       </span>
@@ -125,7 +125,7 @@ export default {
   color: #ffff00;
 }
 .health-green {
-  color: #00aa00;
+  color: #0bc70b;
 }
 
 .error-div {

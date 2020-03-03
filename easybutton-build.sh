@@ -303,11 +303,11 @@ fi
 if [ $DONODE -eq 1 ] && [ ! -f "$TDIR/bin/node" ]; then
     echo "MOLOCH: Installing node $NODE"
     sudo mkdir -p $TDIR/bin $TDIR/etc
-    if [ ! -f node-v$NODE-linux-x64.tar.xz ] ; then
-        wget https://nodejs.org/download/release/v$NODE/node-v$NODE-linux-x64.tar.xz
+    if [ ! -f node-v$NODE-darwin-x64.tar.xz ] ; then
+        wget https://nodejs.org/download/release/v$NODE/node-v$NODE-darwin-x64.tar.xz
     fi
-    sudo tar xfC node-v$NODE-linux-x64.tar.xz $TDIR
-    (cd $TDIR/bin ; sudo ln -sf ../node-v$NODE-linux-x64/bin/* .)
+    sudo tar xfC node-v$NODE-darwin-x64.tar.xz $TDIR
+    (cd $TDIR/bin ; sudo ln -sf ../node-v$NODE-darwin-x64/bin/* .)
 fi
 
 if [ $DOINSTALL -eq 1 ]; then

@@ -107,7 +107,7 @@ a.no-href:hover { color: #0056b3 !important; }
  * </div>
  */
 .info-area {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: #777777;
 }
 

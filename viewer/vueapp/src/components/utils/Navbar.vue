@@ -13,11 +13,11 @@
       <router-link
         :to="{ path: helpLink.href, query: helpLink.query, params: { nav: true } }">
         <div id="helpTooltipContainer">
-          <img src="@/assets/logo.png"
+          <img src="@/assets/ffio_logo.png"
             class="moloch-logo"
             alt="hoot"
             v-b-tooltip.hover
-            title="HOOT! Can I help you? Click me to see the help page"
+            title="Go with the Flow, click here for help"
             id="tooltipHelp"
           />
         </div>
@@ -204,11 +204,12 @@ nav.navbar {
 }
 .moloch-logo {
   position: absolute;
-  height: 41px;
-  top: 2px;
+  height: 30px;
+  top: 11px;
 }
 ul.navbar-nav {
-  margin-left: 20px;
+  margin-left: 280px;
+  margin-bottom: -11px;
 }
 
 a.nav-link > a {

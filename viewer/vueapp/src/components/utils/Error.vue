@@ -26,6 +26,6 @@ export default {
 .info-area > .text-danger {
   white-space: pre-line;
   line-height: 1.1em;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 </style>

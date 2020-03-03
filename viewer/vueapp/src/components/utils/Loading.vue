@@ -1,12 +1,12 @@
 <template>
 
   <div class="loading">
-    <img src="@/assets/watching.gif" />
+    <img src="@/assets/ffio_blocks.png" />
     <div class="loader circles"></div>
     <div class="loader-section rectangle"
       :class="{'tall-rectangle':canCancel}">
       <div class="im-hootin text-center">
-        I'm hootin
+        Go with the flow!
         <div v-if="canCancel"
           class="mt-1">
           <button type="button"

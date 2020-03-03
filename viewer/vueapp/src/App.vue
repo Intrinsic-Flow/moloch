@@ -220,7 +220,7 @@ html {
 body {
   color: var(--color-foreground);
   background-color: var(--color-background);
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  font-family: "Courier New", Courier, monospace !important;
 
   --px-none   : 0;          /* 0px */
   --px-xs     : 0.125rem;   /* 2px */
@@ -250,7 +250,7 @@ body {
 
 /* font sizes */
 .medium { font-size: 95%; }
-.large  { font-size: 1.8rem; }
+.large  { font-size: 1.2rem; }
 .xlarge { font-size: 2rem; }
 
 .bold   { font-weight: bold; }
@@ -472,7 +472,7 @@ div.btn-checkbox > label:disabled {
           box-shadow: 0 0 16px -2px black;
 }
 .sub-navbar .sub-navbar-title {
-  font-size: 19px;
+  font-size: 14px;
   font-weight: bold;
 }
 .sub-navbar .sub-navbar-title .fa-stack {

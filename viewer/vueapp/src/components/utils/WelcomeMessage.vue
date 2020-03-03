@@ -93,7 +93,7 @@ export default {
   z-index: 999;
   width: 333px;
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1.0rem;
 }
 
 /* apply theme color to welcome card */

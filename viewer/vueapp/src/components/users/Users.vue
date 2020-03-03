@@ -931,7 +931,7 @@ td input[type="checkbox"] {
 
 /* indication that a user has additional permissions set */
 .btn-indicator .btn-toggle-user.btn-success {
-  background: linear-gradient(135deg, #28a745 1%, #28a745 75%, #28a745 75%, #1c7730 77%, #1c7730 100%);
+  background: linear-gradient(135deg, #460062 1%, #52006e 75%, #740091 75%, #a300e2 77%, #460062 100%);
 }
 
 .form-control.time-limit-select {

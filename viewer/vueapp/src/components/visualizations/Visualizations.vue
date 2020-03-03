@@ -459,11 +459,11 @@ export default {
       this.debounce(this.updateResults, this.plot, 400);
     },
     panLeft: function () {
-      this.plot.pan({left: -100});
+      this.plot.pan({ left: -100 });
       this.debounce(this.updateResults, this.plot, 400);
     },
     panRight: function () {
-      this.plot.pan({left: 100});
+      this.plot.pan({ left: 100 });
       this.debounce(this.updateResults, this.plot, 400);
     },
     /* helper functions ---------------------------------------------------- */
